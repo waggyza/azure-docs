@@ -54,7 +54,7 @@ az network vpn-connection list --resource-group resourceGroupName
 Once you have the name of the connection, you can run this command to get its resource Id:
 
 ```azurecli
-az network vpn-connection show --resource-group resourceGroupName --ids vpnConnectionIds
+az network vpn-connection show --resource-group resourceGroupName --name vpnConnectionName
 ```
 
 ## Create a storage account
